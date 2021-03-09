@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Card component</title>
+  <link rel="icon" type="image/png" href="https://kasa.com/favicons/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="card.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+  <h2>Default card</h2>
+
+  <div class="card">
+    <div class="image">
+      <img src="card-default-image.jpg" height="200" width="327" alt="Card title"/>
+    </div>
+    <div class="title">
+      <img src="thumbnail-image.jpg" height="200" width="327" alt="Card title"/>
+      <div class="headers">
+        <h3>Card title</h3>
+        <h4>Card subtitle</h4>
+      </div>
+    </div>
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.
+    </div>
+    <div class="footer">
+      Card footer
+    </div>
+  </div>
+
+  <h2>Card variations</h2>
+
+  <div class="card">
+    <div class="image">
+      <img src="card-default-image.jpg" height="200" width="327" alt="Card title"/>
+    </div>
+    <div class="title">
+      <div class="headers">
+        <h3>Card title</h3>
+        <h4>Card subtitle</h4>
+      </div>
+    </div>
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.
+    </div>
+  </div>
+
+  <br/>
+  <br/>
+
+  <div class="card">
+    <div class="title">
+      <img src="thumbnail-image.jpg" height="200" width="327" alt="Card title"/>
+      <div class="headers">
+        <h3>Card title</h3>
+      </div>
+    </div>
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.
+    </div>
+    <div class="footer">
+      Card footer
+    </div>
+  </div>
+
+  <br/>
+  <br/>
+
+  <div class="card">
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.
+    </div>
+    <div class="footer">
+      Card footer
+    </div>
+  </div>
+
+  <h2>Wide card</h2>
+
+  <div class="card wide">
+    <div class="title">
+      <img src="thumbnail-image.jpg" height="200" width="327" alt="Card title"/>
+      <div class="headers">
+        <h3>Card title</h3>
+      </div>
+    </div>
+    <div class="image">
+      <img src="card-image-wide.jpg" height="200" width="544" alt="Card title"/>
+    </div>
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.
+    </div>
+    <div class="footer">
+      Card footer
+    </div>
+  </div>
+
+  <h2>Wide card with aspect image</h2>
+
+  <div class="card wide">
+    <div class="image aspect-image">
+      <img src="card-big-image.jpg" height="331" width="541" alt="Card title"/>
+    </div>
+    <div class="title">
+      <img src="thumbnail-image.jpg" height="200" width="327" alt="Card title"/>
+      <div class="headers">
+        <h3>Card title</h3>
+        <h4>Card subtitle</h4>
+      </div>
+    </div>
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.
+    </div>
+    <div class="footer">
+      Card footer
+    </div>
+  </div>
+
+  <h2>Link card</h2>
+
+  <div class="card" data-url="https://kasa.com/">
+    <div class="image">
+      <img src="card-default-image.jpg" height="200" width="327" alt="Card title"/>
+    </div>
+    <div class="title">
+      <img src="thumbnail-image.jpg" height="200" width="327" alt="Card title"/>
+      <div class="headers">
+        <h3>Card title</h3>
+        <h4>Card subtitle</h4>
+      </div>
+    </div>
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.
+    </div>
+    <div class="footer">
+      Card footer
+    </div>
+  </div>
+
+  <h2>Alert card</h2>
+
+  <div class="card" data-alert="Card alert message!">
+    <div class="image">
+      <img src="card-default-image.jpg" height="200" width="327" alt="Card title"/>
+    </div>
+    <div class="title">
+      <img src="thumbnail-image.jpg" height="200" width="327" alt="Card title"/>
+      <div class="headers">
+        <h3>Card title</h3>
+        <h4>Card subtitle</h4>
+      </div>
+    </div>
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.
+    </div>
+    <div class="footer">
+      Card footer
+    </div>
+  </div>
+
+  <h2>Loading card</h2>
+
+  <div class="card loading"></div>
+
+  <br/>
+  <br/>
+
+  <div class="card loading with-thumbnail"></div>
+
+  <h2>Cards in grid</h2>
+
+  <div class="cards-holder">
+
+    <div class="card">
+      <div class="image">
+        <img src="card-default-image.jpg" height="200" width="327" alt="Card title"/>
+      </div>
+      <div class="title">
+        <img src="thumbnail-image.jpg" height="200" width="327" alt="Card title"/>
+        <div class="headers">
+          <h3>Card title</h3>
+          <h4>Card subtitle</h4>
+        </div>
+      </div>
+      <div class="content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+      </div>
+      <div class="footer">
+        Card footer
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="title">
+        <img src="thumbnail-image.jpg" height="200" width="327" alt="Card title"/>
+        <div class="headers">
+          <h3>Card title</h3>
+        </div>
+      </div>
+      <div class="image">
+        <img src="card-default-image.jpg" height="200" width="327" alt="Card title"/>
+      </div>
+      <div class="content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.
+      </div>
+      <div class="footer">
+        Card footer
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="image">
+        <img src="card-default-image.jpg" height="200" width="327" alt="Card title"/>
+      </div>
+      <div class="title">
+        <img src="thumbnail-image.jpg" height="200" width="327" alt="Card title"/>
+        <div class="headers">
+          <h3>Card title</h3>
+          <h4>Card subtitle</h4>
+        </div>
+      </div>
+      <div class="content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<script>
+    // Card link: add "focused" class and navigate to "data-url" on click
+    document.querySelectorAll("div[data-url]").forEach(box =>
+        box.addEventListener("click", function() {
+            box.classList.toggle("focused");
+            window.location.href = box.getAttribute("data-url");
+        })
+    )
+
+    // Card alert: add "focused" class and alert "data-alert" on click
+    document.querySelectorAll("div[data-alert]").forEach(box =>
+        box.addEventListener("click", function() {
+            box.classList.toggle("focused");
+            setTimeout(function() {
+                alert(box.getAttribute("data-alert"));
+                box.classList.toggle("focused");
+            }, 200);
+        })
+    )
+</script>
+
+</body>
+</html>
