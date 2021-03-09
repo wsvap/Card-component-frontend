@@ -261,20 +261,20 @@
 
 <script>
     // Card link: add "focused" class and navigate to "data-url" on click
-    document.querySelectorAll("div[data-url]").forEach(box =>
-        box.addEventListener("click", function() {
-            box.classList.toggle("focused");
-            window.location.href = box.getAttribute("data-url");
+    document.querySelectorAll("div[data-url]").forEach(card =>
+        card.addEventListener("click", function() {
+            card.classList.toggle("focused");
+            window.location.href = card.getAttribute("data-url");
         })
     )
 
     // Card alert: add "focused" class and alert "data-alert" on click
-    document.querySelectorAll("div[data-alert]").forEach(box =>
-        box.addEventListener("click", function() {
-            box.classList.toggle("focused");
+    document.querySelectorAll("div[data-alert]").forEach(card =>
+        card.addEventListener("click", function() {
+            card.classList.toggle("focused");
             setTimeout(function() {
-                alert(box.getAttribute("data-alert"));
-                box.classList.toggle("focused");
+                alert(card.getAttribute("data-alert"));
+                card.classList.toggle("focused");
             }, 200);
         })
     )
